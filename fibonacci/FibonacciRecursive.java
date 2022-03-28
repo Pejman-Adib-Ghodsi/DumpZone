@@ -7,8 +7,8 @@ public class FibonacciRecursive {
     public static void calculateFibonacci(int number) {
         if(number > 0) {
             n3 = n1+n2;
-            n1= n2;
-            n2= n3;
+            n1 = n2;
+            n2 = n3;
             System.out.print(", " + n3);
             calculateFibonacci(number-1);
         }
